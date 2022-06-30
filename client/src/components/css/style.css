@@ -1,0 +1,73 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+html{
+    font-family:"Montserrat" , sans-serif;
+  }
+body{
+    background-color: #eee;
+  }
+.tabs {
+    height: 100%;
+    width: 250px;
+}
+
+.tab{
+    border: 1px solid;
+    list-style: none;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    display:flex;
+    align-items: center;
+    padding:5px;
+    margin-right:15px;
+    background-size: cover;
+}
+.name{
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 18px;
+    margin-left: 10px;
+}
+
+.icon{
+    font-size:30px;
+    margin-right: 10px;
+    margin-left: 5px;
+}
+
+.tab:hover{
+    background-color:rgb(250, 206, 206);
+}
+.nav{
+    font-size:35px;
+}
+
+
+.footer{
+   position: absolute;
+   bottom:0;
+}
+
+/* Notes */
+
+.card{
+    width:250px;
+    height:200px;
+    border-radius: 20px;
+    display:inline-block;
+    padding:1px;
+    margin:10px 10px 10px 12px;
+
+}
+
+.search-box {
+	width: 70%;
+    height:100%;
+    align-self: center;
+    border-radius: 15px;
+    background-color: rgb(231, 229, 229);
+}
